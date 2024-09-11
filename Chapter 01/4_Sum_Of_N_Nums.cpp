@@ -6,7 +6,7 @@ int main()
     std::cout << "Enter a number(n) to calculate the sum from 0 to n: ";
     std::cin >> n;
 
-    for (int i = 0; i <= n; i++)
+    for (int i = 1; i <= n; i++)
     {
         sum += i;
     }
