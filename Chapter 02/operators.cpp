@@ -30,5 +30,24 @@ int main()
     std::cout << ((3 < 5) || (3 > 5)) << std::endl; // atleast 1 condition true then true
     std::cout << ((3 < 5) && (3 > 5)) << std::endl; // all conditions should be true the true
 
+    // Unary Operators    ++ , --
+    std::cout << "\nUnary Operators" <<std::endl;
+    std::cout << "\nUnary Operators(++)" <<std::endl;
+    int g = 10;
+    int h = g++;       // work ,(then)  update                        // Post-increment
+    std::cout << "h = " << h << " , g = " << g <<std::endl;  // h = 10 , g = 11
+
+    int i = 10;
+    int j = ++i;       // update ,(then) work                        // Pre-increment
+    std::cout << "j = " << j << " , i = " << i <<std::endl;  // j = 11 , i = 11
+
+    std::cout << "\nUnary Operators(--)" <<std::endl;
+    int k = 1;
+    int L = k--;                                                     // Post-decrement
+    std::cout << "L = " << L << " , k = " << k <<std::endl;   //L = 1 , K = 0 
+
+    int m = 1;
+    int n = --m;                                                      // Pre-decrement
+    std::cout << "n = " << n << " , m = " << m <<std::endl; // n = 0 , m = 0
     return 0;
 }
